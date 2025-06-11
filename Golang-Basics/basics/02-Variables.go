@@ -1,8 +1,9 @@
 package basics
 
+
 import "fmt"
 
-func variables(){
+func Variables(){
 	var age int
     var name1 string ="manoj"
 	var name2 ="murugan"
@@ -21,5 +22,8 @@ func variables(){
 	// bool=false
 	// string =""
 	// pointers,slices,maps,functions and structs :nil
+
+
+	//short declaration will not work in global declarations eg.dddd age:=12
 
 }

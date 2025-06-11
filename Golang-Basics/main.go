@@ -1,25 +1,25 @@
-package basics
+package main
 
-import "fmt"
+// import "fmt"
+import (
+    "github.com/ManojM-656565/Golang-Journey/Golang-basics/basics"
+)
 
-func variables(){
-	var age int
-    var name1 string ="manoj"
-	var name2 ="murugan"
 
-	count :=10
-	values:=45
+func main(){
 
-	fmt.Println(age)
-	fmt.Println(name1)
-	fmt.Println(name2)
-	fmt.Println(count)
-	fmt.Println(values)
+	// basics.Variables()
+	// basics.Constants()
+	basics.Arrays()
+	// basics.Loops()
 
-	//default values
-	// numeric =0
-	// bool=false
-	// string =""
-	// pointers,slices,maps,functions and structs :nil
+	// basics.Variables()
+	// basics.Variables()
+	// basics.Variables()
+	// basics.Variables()
+	// basics.Variables()
+	// basics.Variables()
+
+	
 
 }
